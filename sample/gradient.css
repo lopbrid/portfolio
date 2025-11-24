@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.element{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50rem;
+        background: radial-gradient(circle at 30% 90%,
+        rgba(28, 44, 154, 1), rgba(0, 0, 0, 0));
+    }

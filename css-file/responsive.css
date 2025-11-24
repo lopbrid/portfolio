@@ -1,0 +1,164 @@
+/* Tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .search {
+    width: 250px; /* Reduce search bar width */
+  }
+  .pages {
+    gap: 30px; /* Reduce gap in navigation */
+  }
+  .home {
+    padding: 50px; /* Reduce padding */
+    margin: 30px;
+  }
+  .name {
+    width: 350px; /* Adjust name width */
+    font-size: 60px; /* Smaller font */
+    line-height: 50px;
+  }
+  .p1 {
+    width: 300px; /* Adjust paragraph width */
+  }
+  .frame {
+    height: 300px; /* Smaller frame */
+    width: 300px;
+  }
+  .img1 {
+    width: 330px; /* Adjust image width */
+  }
+  main {
+    padding: 50px; /* Reduce padding */
+  }
+  article {
+    width: 70%; /* Adjust article width */
+  }
+  .project {
+    padding: 50px; /* Reduce padding */
+  }
+  .proj {
+    width: 48%; /* Adjust project width */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack header elements vertically */
+    height: auto; /* Allow height to adjust */
+    padding: 10px 0; /* Add padding */
+  }
+  .search-bar {
+    margin-left: 0; /* Center or adjust */
+    margin-bottom: 10px;
+  }
+  .search {
+    width: 80%; /* Make search bar responsive */
+    max-width: 300px;
+  }
+  .pages {
+    gap: 20px; /* Smaller gap */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  .home {
+    padding: 20px; /* Reduce padding */
+    height: auto; /* Allow height to adjust */
+  }
+  .home1 {
+    flex-direction: column; /* Stack content vertically */
+    padding-bottom: 50px;
+  }
+  .name {
+    width: 100%; /* Full width */
+    font-size: 50px; /* Smaller font */
+    line-height: 45px;
+    text-align: center; /* Center text */
+  }
+  .p1 {
+    width: 100%; /* Full width */
+    text-align: center;
+  }
+  .right-img {
+    position: static; /* Remove absolute positioning */
+    margin-top: 20px; /* Add margin */
+  }
+  .frame {
+    height: 250px; /* Smaller frame */
+    width: 250px;
+    margin: 0 auto; /* Center */
+  }
+  .img1 {
+    width: 280px; /* Adjust image */
+    left: -10px;
+  }
+  .home2 {
+    flex-direction: column; /* Stack icons vertically */
+    gap: 20px;
+  }
+  .icons {
+    justify-content: center; /* Center icons */
+  }
+  main {
+    flex-direction: column; /* Stack main content vertically */
+    padding: 20px;
+  }
+  aside {
+    position: static; /* Remove sticky */
+    margin-bottom: 20px;
+  }
+  article {
+    width: 100%; /* Full width */
+  }
+  .info1, .info2, .info3 {
+    height: auto; /* Allow height to adjust */
+    padding: 15px;
+  }
+  .project {
+    padding: 20px;
+  }
+  .proj-flex {
+    flex-direction: column; /* Stack projects vertically */
+  }
+  .proj {
+    width: 100%; /* Full width */
+    margin-bottom: 20px;
+  }
+  .contact {
+    height: auto; /* Allow height to adjust */
+  }
+  .foot {
+    height: auto; /* Allow height to adjust */
+    padding: 20px 0;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .name {
+    font-size: 40px; /* Even smaller font */
+    line-height: 35px;
+  }
+  .p1 {
+    font-size: 14px; /* Smaller text */
+  }
+  .frame {
+    height: 200px; /* Smaller frame */
+    width: 200px;
+  }
+  .img1 {
+    width: 220px;
+  }
+  .icons {
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 15px;
+  }
+  .skill-icons--css, .skill-icons--html, .fa7-brands--square-js, .skill-icons--mysql-dark, .skill-icons--python-dark {
+    width: 40px; /* Smaller icons */
+    height: 40px;
+  }
+  .exp {
+    font-size: 30px; /* Smaller font */
+    line-height: 30px;
+  }
+  .p2-proj {
+    font-size: 20px; /* Smaller font */
+  }
+}
