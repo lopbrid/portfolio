@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+  <title>portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css-file/body.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css-file/contact.css">
+  <link rel="stylesheet" href="css-file/experience.css">
+  <link rel="stylesheet" href="css-file/header-search.css">
+  <link rel="stylesheet" href="css-file/home.css">
+  <link rel="stylesheet" href="css-file/project.css">
+  <link rel="stylesheet" href="css-file/responsive.css">
+</head>
+
+<body>
+  <div class="background-layer">
+    <div class="gradients-container">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+      <div class="g5"></div>
+    </div>
+  </div>
+  <div class="noise-layer"></div>
+  <div class="page">
+    <div class="whole">
+      <button id="open-sidear-button" onclick="openSidebar()" class="open">
+        <svg id="open-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="#fff"
+            d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z" />
+        </svg>
+      </button>
+      <nav id="navbar" class="show">
+        <ul class="article-nav">
+          <div>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()" class="close">
+                <svg id="close-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="#fff"
+                    d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" />
+                </svg>
+              </button></li>
+          </div>
+          <div>
+            <li class="blank-li">
+              <a class="active-link" href=""></a>
+            </li>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="1500">
+            <li><a href="#HOME">HOME</a></li>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="2000">
+            <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="2500">
+            <li><a href="#PROJECT">PROJECT</a></li>
+          </div>
+          <div data-aos="fade-left" data-aos-duration="3000">
+            <li><a href="#CONTACT">CONTACT</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div onclick="closeSidebar()" id="overlay"></div>
+
+      <div class="mask-blur"></div>
+      <div id="HOME" class="home">
+        <div class="home1">
+          <div class="content">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+              data-aos-duration="1500">
+              <h1 class="name">
+                Wendell G. Capareda
+              </h1>
+            </div>
+            <div>
+              <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2000" class="p1">
+                I&apos;m passionate about creating clean visuals and practical digital solutions while continuously
+                improving my skills in design and programming.
+              </p>
+            </div>
+          </div>
+          <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="2500" class="right-img">
+            <div class="frame">
+              <img class="img1" src="img/Jiji.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="home2">
+          <div class="Tech">
+            <div>
+              <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="1500" class="p2">Tech Stack</p>
+            </div>
+            <div class="icons">
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2000">
+                <div class="css"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2100">
+                <div class="html"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2200">
+                <div class="js"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2300">
+                <div class="mysql"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2400">
+                <div class="python"></div>
+              </div>
+            </div>
+          </div>
+          <div class="tools">
+            <div>
+              <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2500" class="p2">Tool Stack</p>
+            </div>
+            <div class="icons">
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2600">
+                <div class="devicon--photoshop"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2700">
+                <div class="devicon--illustrator"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2900">
+                <div class="material-icon-theme--figma"></div>
+              </div>
+              <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="3000">
+                <div class="lineicons--canva"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main id="EXPERIENCE">
+        <aside>
+          <div id="workexp" class="exp">Work experience</div>
+          <div>
+            <ul class="record">
+              <li><a href="#2024">2024-2025</a></li>
+              <li><a href="#2023">2023-2024</a></li>
+            </ul>
+          </div>
+        </aside>
+        <article>
+          <div id="2024" class="info1">
+            <div>
+              <p class="date">
+                July 2025
+              </p>
+            </div>
+            <div>
+              <div>
+                <div class="info1-header">
+                  <h3 class="h3">Muiltimedia Intern(OJT)</h3>
+                  <h4 class="h4">Custard Apple Outsourcing Inc. — (Trainee)</h4>
+                </div>
+                <div class="2023-info">
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Assisted in creating high-quality video edits using CapCut and Filmora</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Improved skills in visual storytelling, color grading, layout design, and production workflow
+                      through actual industry exposure</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Collaborated with the creative team, gaining hands-on experience in a real work environment</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Handled multiple tasks such as editing, layout design, and asset organization to support daily
+                      operations</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Produced marketing materials and social media content aligned with brand guidelines</p>
+                  </div>
+                  <div class="tools-use">
+                    <div class="tool">Photoshop</div>
+                    <div class="tool">Filmora</div>
+                    <div class="tool">CapCut</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="2023" class="info2">
+            <div>
+              <p class="date">
+                July 2024
+              </p>
+            </div>
+            <div>
+              <div>
+                <div class="info1-header">
+                  <h3 class="h3">Graphic Designer/Video Editor</h3>
+                  <h4 class="h4">Reehive — (Part-time)</h4>
+                </div>
+                <div class="2023-info">
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Designed 50+ social media graphics, posters, and marketing materials using Canva, and Adobe
+                      Illustrator</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Edited 30+ short-form and long-form videos using CapCut, focusing on smooth transitions,
+                      captions, and pacing</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Created brand-consistent visuals for online campaigns, improving engagement across multiple
+                      platforms</p>
+                  </div>
+                  <div class="info1-exp">
+                    <p>&bull;</p>
+                    <p>Managed multiple projects simultaneously, meeting tight deadlines while maintaining high-quality
+                      standards</p>
+                  </div>
+                  <div class="tools-use">
+                    <div class="tool">Photoshop</div>
+                    <div class="tool">Adobe Illustrator</div>
+                    <div class="tool">CapCut</div>
+                    <div class="tool">Canva</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+      <div id="PROJECT" class="project">
+        <div class="proj-header">
+          <div>
+            <p class="p1-proj">PROJECTS</p>
+          </div>
+          <div>
+            <p class="p2-proj">Some of my school work</p>
+          </div>
+        </div>
+        <div class="proj-flex">
+          <div class="proj" data-tilt data-tilt-glare>
+            <div class="proj-img">
+              <img src="img/calendar.png" alt="">
+            </div>
+            <div class="proj-foot">
+              <div class="status">
+                <div class="dot">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#b36900" />
+                  </svg>
+                </div>
+                <p>
+                  In Progress
+                </p>
+              </div>
+              <div>
+                <p class="proj-p1">
+                  This group project created a cross-platform event calendar for students using Android Studio and Figma
+                  for prototyping, enabling real-time synchronization between Android and PC for efficient, unified
+                  schedule management.
+                </p>
+              </div>
+              <div class="tools-use">
+                <div class="tool">Java</div>
+                <div class="tool">Kotlin</div>
+              </div>
+            </div>
+          </div>
+          <div class="proj" data-tilt data-tilt-glare>
+            <div class="proj-img">
+              <img src="img/Screenshot 2025-12-13 225155.png" alt="">
+            </div>
+            <div class="proj-foot">
+              <div class="in-status">
+                <div class="in-dot">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#787878" stroke-width="0.5" stroke="#787878" />
+                  </svg>
+                </div>
+                <p>
+                  Inactive
+                </p>
+              </div>
+              <div>
+                <p class="proj-p1">
+                  During my third year, we developed an engaging game using Godot, implementing interactive gameplay, UI
+                  design, basic scripting, and efficient project structure for learning purposes.
+                </p>
+              </div>
+              <div class="tools-use">
+                <div class="tool">Godot Engine</div>
+                <div class="tool">GDScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="proj" data-tilt data-tilt-glare>
+            <div class="proj-img">
+              <img src="img/sample.png" alt="">
+            </div>
+            <div class="proj-foot">
+              <div class="in-status">
+                <div class="in-dot">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#787878" stroke-width="0.5" stroke="#787878" />
+                  </svg>
+                </div>
+                <p>
+                  Inactive
+                </p>
+              </div>
+              <div>
+                <p class="proj-p1">
+                  This project, built during my second year as a Computer Science, this University Database system uses
+                  Java and MySQL to manage students,
+                  advisors, rooms, and enrollments in an organized platform.
+                </p>
+              </div>
+              <div class="tools-use">
+                <div class="tool">Java</div>
+                <div class="tool">Mysql</div>
+                <div class="tool">Netbeans</div>
+              </div>
+            </div>
+          </div>
+          <div class="proj" data-tilt data-tilt-glare>
+            <div class="proj-img">
+              <img src="img/bank.png" alt="">
+            </div>
+            <div class="proj-foot">
+              <div class="in-status">
+                <div class="in-dot">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="4" fill="#787878" stroke-width="0.5" stroke="#787878" />
+                  </svg>
+                </div>
+                <p>
+                  Inactive
+                </p>
+              </div>
+              <div>
+                <p class="proj-p1">
+                  In my first year, we created a simple Banking System using Java and MySQL, implementing account
+                  management, secure transactions, and basic user authentication features successfully for learning
+                  practical programming skills.
+                </p>
+              </div>
+              <div class="tools-use">
+                <div class="tool">Java</div>
+                <div class="tool">Mysql</div>
+                <div class="tool">Netbeans</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="CONTACT" class="contact">
+        <div class="heading">
+          <p class="contact-p1">
+            CONTACT
+          </p>
+          <p class="contact-p2">
+            Get in Touch
+          </p>
+        </div>
+        <div class="location-contact">
+          <div>
+            <div class="location-flex">
+              <div class="icon-bg">
+                <span class="tdesign--location-filled"></span>
+              </div>
+              <div class="location">
+                <p>Location</p>
+                <a href="https://maps.app.goo.gl/G1EiTVctjksXvedcA">G.S.C, South Cotabato, Philippines</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="email-flex">
+              <div class="icon-bg">
+                <span class="ic--round-email"></span>
+              </div>
+              <div class="email">
+                <p>Email</p>
+                <a href="mailto:wendellcapareda770@gmail.com">wendellcapareda770@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="foot">
+            <div>
+              <div class="crdt">© 2025 Wendell G. Capareda | All Rights Reserved</div>
+            </div>
+            <div class="footer-icon">
+              <a href="https://github.com/lopbrid" class="mdi--github"></a>
+              <a href="https://www.instagram.com/jorgdsss/" class="mingcute--instagram-fill"></a>
+              <a href="https://t.me/@wendell_06" class="ic--outline-telegram"></a>
+              <a href="" class="mdi--linkedin"></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet">
+
+    <!-- <script src="js-file/vanilla-tilt.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js-file/portfolio.js" defer></script>
+  </div>
+</body>
+
+</html>
